@@ -1,0 +1,8 @@
+---
+title: "CrumpRTemplates"
+---
+
+Some examples of R markdown templates.
+
+- [Crump R Basic Page](examples/Crump_R_basic/Crump_R_basic.html)
+

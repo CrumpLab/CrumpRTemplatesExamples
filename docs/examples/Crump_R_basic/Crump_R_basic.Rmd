@@ -1,0 +1,53 @@
+---
+title: "Crump R Basic Page"
+author: "Matt Crump"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+twitter: "https://twitter.com/MattCrump_"
+github: "https://github.com/CrumpLab"
+website: "https://crumplab.gihub.io"
+output: 
+  html_document:
+    template: web/template.html
+    toc: true
+    toc_float: true
+    collapsed: false
+    code_folding: show
+    number_sections: false
+    toc_depth: 4
+    theme: yeti
+    highlight: kate
+    css: web/crump_basic.css
+    includes:
+      in_header: web/header.html
+    md_extensions: -autolink_bare_uris
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+---
+
+A very basic Rmd Template with table of contents. Defaults to the Yeti style from Bootswatch, with tango for code commenting. The font is lato from google fonts.
+
+## Second level header
+
+some words
+
+### Third level header
+
+some more words
+
+- what do
+- lists
+- look like?
+
+#### Fourth level header
+
+even more words
+
+```{r}
+a <- 1
+b <- 2
+hist(rnorm(100,0,1))
+```

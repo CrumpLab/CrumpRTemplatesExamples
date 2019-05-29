@@ -1,0 +1,12 @@
+name: "CrumpRTemplates"
+navbar:
+  title: "CrumpRTemplates"
+  left:
+    - text: "Home"
+      href: index.html
+
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+output_dir: "docs"
