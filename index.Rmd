@@ -2,7 +2,17 @@
 title: "CrumpRTemplates"
 ---
 
-Some examples of R markdown templates.
+Learning how to make R markdown templates...Use at your own risk :)
+
+Templates listed here (as I build them) can be installed from the following github repository [https://github.com/CrumpLab/CrumpRTemplates](https://github.com/CrumpLab/CrumpRTemplates)
+
+note: this requires that the `devtools` library is installed.
+
+```{r, eval=FALSE}
+devtools::install_github("CrumpLab/CrumpRTemplates")
+```
+
+### Templates
 
 - [Crump R Basic Page](examples/Crump_R_basic/Crump_R_basic.html)
 
