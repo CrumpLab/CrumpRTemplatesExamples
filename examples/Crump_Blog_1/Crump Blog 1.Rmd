@@ -1,0 +1,58 @@
+---
+title: "Crump R Blog 1"
+author: "Matt Crump"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+twitter: "https://twitter.com/MattCrump_"
+github: "https://github.com/CrumpLab"
+website: "https://crumplab.gihub.io"
+bibliography: refs.bib
+csl: web/apa.csl
+output: 
+  html_document:
+    template: web/template.html
+    toc: true
+    toc_float: true
+    collapsed: false
+    code_folding: show
+    number_sections: false
+    toc_depth: 4
+    theme: yeti
+    highlight: kate
+    css: web/crump_basic.css
+    includes:
+      in_header: web/header.html
+    md_extensions: -autolink_bare_uris
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+---
+
+Lorem ipsum dolor sit amet, cras id in eros sit nunc, ac at. Hendrerit in enim dictum diam, libero rhoncus ultrices vestibulum, velit ut. Accumsan, sapien ut, curabitur pretium nullam, eu lectus a suscipit eget molestie, purus. Enim odio, luctus integer sed mi, nostra, a facilisi, mus, justo hendrerit. Mauris curabitur sed in, hac iaculis donec hac sociis senectus at, ultrices. Aliquam conubia scelerisque quisque at, nam ac pretium ultricies ac lorem dolor iaculis. Ut litora sapien erat. Ridiculus eros, parturient tempus cum. Aliquam sed non purus faucibus himenaeos gravida et sit et. In aliquam sed. Nulla enim rutrum. Dictumst sed vivamus id quam aliquam ante ac placerat. Suspendisse id tristique molestie, mi facilisis vitae.
+
+## Nulla enim rutrum
+
+Quisque sed laoreet varius cum eu lorem purus magna risus. Tempor tincidunt vestibulum orci. Non ad, id magna facilisi non. Adipiscing condimentum vulputate eget amet mi euismod pellentesque. Ad maecenas mattis etiam, pellentesque. Porttitor ornare nisi scelerisque ac eget pellentesque luctus. Purus aptent torquent nulla sed sollicitudin amet, tincidunt. Ut dictum odio blandit leo nisi condimentum. Justo nibh semper gravida ligula ac, at aliquet elementum tortor amet. In non urna sit ornare, facilisi, nunc rhoncus. Non sem. Nec non ligula vel auctor sed purus integer sed enim mauris.
+
+Lorem ipsum dolor sit amet, id parturient porttitor maecenas eget mi. Nisi accumsan sed facilisi orci commodo himenaeos ipsum ac pretium sed. Enim tempor, ante hendrerit et per. Sed varius ultrices sit dictumst ac luctus. Taciti ligula faucibus accumsan ut fames ac. Luctus consectetur, parturient pellentesque nascetur ut suscipit odio. Porttitor sapien aliquam congue ut, dui. Nec est mollis risus nullam imperdiet parturient litora lacus eleifend. Ac donec egestas pellentesque aliquam eu enim taciti aenean. Egestas massa ultricies. Fames eget, integer nec condimentum leo nisi. Ad interdum donec ligula. Nunc elementum non lobortis. Himenaeos quam, eget torquent ut enim iaculis nisl in libero. Euismod senectus parturient eu mauris suspendisse suscipit libero hac amet aliquam.
+
+### Ac donec egestas
+
+Aliquam, egestas tellus semper nulla, nisl, euismod. Magna phasellus cras sit ac sociis, leo, pulvinar lacus lorem dolor purus. Sapien dolor quis sed. Est curae venenatis faucibus dictum, nulla ante, commodo mauris. Id sem egestas tellus curae at. Mauris urna augue pulvinar justo ac inceptos eget nulla cubilia. Mollis sapien, torquent amet mauris curabitur ultricies mattis. Odio at nulla bibendum amet ut non ac? Ante himenaeos ut mi nec aliquet et. Sed tempor sapien sociis. Nibh, cras augue inceptos sed class fusce semper tempor non magna non. Sed vitae. Neque, erat, metus nibh luctus sed, turpis. Convallis ac luctus dignissim efficitur vulputate placerat odio magna a. Nulla quisque ultrices auctor sed ligula id vel in, nisi etiam lectus. Dis non blandit montes malesuada nulla amet purus. Dictum consectetur imperdiet justo suscipit cubilia.
+
+### Dis non blandit montes
+
+Lorem ipsum dolor sit amet, sed ante magna pretium iaculis gravida sapien gravida. Cubilia nunc sed amet scelerisque, porta vel metus lobortis nostra dictumst sed viverra dictum sed. Euismod pharetra morbi tempus in elementum justo? Sed accumsan curae eros morbi, cras himenaeos nam. Elit sed lacus, sociosqu quisque class. Suspendisse in, per, semper ante bibendum netus tempor. Nisl lacus varius nulla velit ut. Eros non molestie sit. Imperdiet dolor penatibus ultricies nascetur elit platea nisi. Condimentum interdum magna pellentesque cras quis, molestie praesent himenaeos! Nisl non elit vulputate at purus dui ornare donec eu vulputate ullamcorper aenean quis cum. Libero tellus massa nisl egestas natoque sed inceptos vel himenaeos quisque. Felis sed quam tempor facilisis, non. Mattis id in turpis neque scelerisque massa.
+
+## Imperdiet dolor penatibus ultricies
+
+Lorem ipsum dolor sit amet, posuere velit, tristique mollis vestibulum nulla hac. Sociis taciti risus sit mus aenean cras sem? Sed, varius ut, et diam fusce leo eros, primis ut vel per. Ac amet a, sed ac ut amet, himenaeos eget finibus. Mus lorem vel, id mauris elit lacinia aenean porttitor ut aliquet blandit. Luctus risus varius at massa dapibus, tristique pulvinar. Sed sed magna nulla lobortis, at, aenean. Congue eu varius augue mattis curae. At lacus sit felis felis tempus pretium nisl et ultricies ligula. Nec tincidunt commodo, a luctus leo lacinia, venenatis pharetra a. Eu mauris erat turpis quam at eu hendrerit. Fermentum quam eros nostra ut sed. Sed massa, consequat felis.
+
+Turpis sem luctus viverra odio risus nullam. Senectus consequat ipsum turpis mollis orci sit sem sed malesuada, sed. Tempus diam porta ante tortor tempus praesent amet ante mattis metus ut nunc. Ad donec varius feugiat in porta mauris mus nibh ornare id. Velit eu, orci ut aenean ut sapien leo curabitur. Vitae tempor eu et, finibus nisl vulputate felis vel commodo non. Tristique egestas ridiculus luctus dui dolor, posuere, leo ipsum. Sollicitudin magnis auctor in eu. At at class ut, pellentesque placerat nec non amet. Ut class vestibulum mauris natoque sollicitudin aenean condimentum pharetra dictumst. Fermentum eros class urna suspendisse platea. Faucibus vel in lacus ex magnis pulvinar quisque.
+
+
+
+
+

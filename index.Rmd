@@ -16,3 +16,5 @@ devtools::install_github("CrumpLab/CrumpRTemplates")
 
 - [Crump R Basic Page](examples/Crump_R_basic/Crump_R_basic.html)
 
+- [Crump Blog 1](examples/Crump_Blog_1/Crump_Blog_1.html)
+
